@@ -10,7 +10,7 @@ GPIO.setup(Button,GPIO.IN)
 #loop
 print("Program Running")
 while 1 == 1:#loops forever till keyboard interupt (ctr + C) 
-  if GPIO.input(Button) == False:#when button pressed:
+  if GPIO.input(Button) is False:#when button pressed:
     print("Button Pressed")
     
     #    ------|    photo & Bell    |------ #
